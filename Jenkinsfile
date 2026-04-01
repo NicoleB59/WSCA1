@@ -53,7 +53,7 @@ pipeline {
 
         stage('Run Postman Tests with Newman') {
             steps {
-                bat 'newman run postman_collection.json'
+                bat 'npx newman run postman_collection.json'
             }
         }
 
