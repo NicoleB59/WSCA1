@@ -59,7 +59,7 @@ pipeline {
 
         stage('Generate README.txt') {
             steps {
-                bat 'py scripts\\generate_readme.py'
+                bat 'py \\scripts\\generate_readme.py'
             }
         }
 
