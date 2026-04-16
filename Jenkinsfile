@@ -17,7 +17,7 @@ pipeline {
         stage('Create .env file') {
             steps {
                 bat '''
-                echo MONGO_URI=mongodb+srv://b00157129_db_user:Bula2cao@cluster0.lioc5vj.mongodb.net/?appName=Cluster0>.env
+                echo MONGO_URI=mongodb+srv://b00157129_db_user:Bula1384@cluster0.lioc5vj.mongodb.net/?appName=Cluster0>.env
                 echo DB_NAME=inventory_db>>.env
                 echo COLLECTION_NAME=products>>.env
                 '''
